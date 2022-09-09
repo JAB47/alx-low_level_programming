@@ -3,7 +3,8 @@
 /**
  *main-beginning
  *
- * Return: (0) if a success
+ *Description: Prints the size of different types of C to the terminal depending on the weather the system is a 32-bit or a 64-bit system
+ *Return: (0) if a success
  */
 int main(void)
 {
