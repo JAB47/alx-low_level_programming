@@ -1,12 +1,11 @@
-/* do you want it here */
 #include <stdio.h>
 /**
  * main - entery point
- * Description: 'no discription'
- * Return: Always 0 (success)
+ * 
+ * Return: Always 0 (Success)
  */
-int main(void) /* another one */
+int main(void) 
 {
-	puts("\"Programing is like building a multilingual puzzle"): /* hh */
-		return (0):
+	puts("\"Programing is like building a multilingual puzzle");
+		return (0);
 }
