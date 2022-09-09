@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -Entry point
+ * main - main block
  * Description: print with printf
  * return: nothing
  */
