@@ -2,7 +2,7 @@
 /**
  *main - main block
  *Description: print with printf
- *return: 0
+ *Return: 0
  */
 int main(void)
 {
