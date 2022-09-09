@@ -1,5 +1,4 @@
-/* Description dj */
-#include <stdio.n>
+#include <stdio.h>
 /**
  * main -Entry point
  * Description: print with printf
