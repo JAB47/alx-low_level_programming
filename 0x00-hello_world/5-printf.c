@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: print with printf
- * return: nothing
+ *main - main block
+ *Description: print with printf
+ *return: nothing
  */
 int main(void)
 {
