@@ -1,19 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
- *main-beginning
- *Description-Prints all decimal numbers
- *Retrun: always 0 is sucess
+ * main- beginning
+ *
+ * Description: prints all single digit numbers of base 10 starting from 0
+ * Retrun: Always 0 if success
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-	printf("\n");
+	for (num = 0; num < 10; num++)
+	{
+		printf("%d", num);
+	}
+	putchar('\n');
 
 	return (0);
 }
