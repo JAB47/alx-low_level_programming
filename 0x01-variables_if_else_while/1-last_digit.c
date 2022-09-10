@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - assign a random number to the variable
- * Description-print the last digit of the number stored in the variable
- * Return: Always 0 if sucess
+ * main-beginning
+ *Description-print the last digit of the number stored in the variable
+ *Return: Always 0 if sucess
  */
 int main(void)
 {
