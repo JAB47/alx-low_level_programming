@@ -4,7 +4,7 @@
 
 /**
  * main-beginning
- *Description-print the last digit of the number stored in the variable n i
+ *Description-print the last digit of the number stored in the variable n ii
  *Return: Always 0 if sucess
  */
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	ld = n % 10;
 
 	if (ld > 5)
-		printf("Last digit of %d is %d and greater than 5\n", n, ld);
+		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
 	else if (ld == 0)
 		printf("Last digit of %d is %d and is %d\n", n, ld, ld);
 	else if (ld < 6 && ld != 0)
