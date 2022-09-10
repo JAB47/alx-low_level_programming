@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main- beginning
- * Description-Prints all decimal numbers
- * Retrun: always 0 is sucess
+ *main-beginning
+ *Description-Prints all decimal numbers
+ *Retrun: always 0 is sucess
  */
 int main(void)
 {
