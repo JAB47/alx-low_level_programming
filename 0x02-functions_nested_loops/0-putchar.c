@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * main - Prints int_putchar as a message
+ * main - Prints _putchar on the screen
  *
- * Return: Always 0 upon (success)
+ * Return: Always 0 on success
  */
 int main(void)
 {
-	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
-	int count, sz;
+	char var[] = "_putchar";
+	int i;
+	int lenVar = sizeof(var) / sizeof(var[0]);
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	for (i = 0; i < lenVar - 1; i++)
 	{
-		int_putchar(str[count]);
+		_putchar(var[i]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
