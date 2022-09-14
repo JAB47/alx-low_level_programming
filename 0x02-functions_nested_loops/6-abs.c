@@ -12,9 +12,9 @@ int _abs(int c)
 	{
 		int ans_val;
 
-		abs_val = c * -1;
+		ans_val = c * -1;
 
-		return (abs_val);
+		return (ans_val);
 	}
 
 	return (0);
