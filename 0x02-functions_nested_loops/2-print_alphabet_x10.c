@@ -7,14 +7,18 @@
  */
 void print_alphabet_x10(void)
 {
-	int a, b;
+	int i = 0;
 
-	for (a = b; a <= 9; a++)
+	while (i < 10)
 	{
-		for (b = 97; b <= 122; b++)
+		char alphabest = 'a';
+
+		while (alphabet <= 'z')
 		{
-			_putchar(b);
+			_putchar(alphabet);
+			alphabet++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }
