@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * _abs -The absolut value of an interger.
+ * _abs- cpm[utes the absolute value of an integer
  * @c: The number to be computed
  *
- * Retrun: Absolut value of number or 0
+ * Return: absolut value of number or 0
  */
 int _abs(int c)
 {
 	if (c < 0)
 	{
-		int ans_val;
+		int abs_val;
 
-		ans_val = c * -1;
+		abs_val = c * -1;
 
-		return (ans_val);
+		return (abs_val);
 	}
 
 	return (c);
