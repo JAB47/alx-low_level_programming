@@ -6,26 +6,21 @@
  * Return:void
  */
 
-void print_alphabest_x10(void)
-
+void print_alphabet_x10(void)
 {
+	int round = 0;
+	char letter = 'a';
 
-	char c;
-
-	int i = 0;
-
-	while (i < 10)
-
+	while (round < 10)
 	{
-		c = 'a';
-		while (c <= 'z')
-
+		letter = 'a';
+		while (letter <= 'z')
 		{
-			_putchar(c);
-			c++;
+			_putchar(letter);
+			letter++;
 		}
+		_putchar('\n');
 
-		_putvhar('\n');
-		i++;
+		round++;
 	}
 }
