@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabest_x10 -prints alphabest 10 times
+ * print_alphabet_x10(void)
  *
- * Return: void
+ * Return: 0
  */
 void print_alphabet_x10(void)
 {
@@ -14,10 +14,10 @@ void print_alphabet_x10(void)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
-			_puchar(c);
+			_putchar(c);
 		}
 
-		_putchar ('\n');
+		_putchar('\n');
 
 		i++;
 	}
