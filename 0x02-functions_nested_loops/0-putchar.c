@@ -1,21 +1,22 @@
 #include "main.h"
 
 /**
- * main - Prints _putchar on the screen
- *
- * Return: Always 0 on success
+ * main - the driver function print _putchar followed by a new line
+ * Retrun: always 0
  */
 int main(void)
 {
-	char var[] = "_putchar";
-	int i;
-	int lenVar = sizeof(var) / sizeof(var[0]);
-
-	for (i = 0; i < lenVar - 1; i++)
-	{
-		_putchar(var[i]);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 
 	return (0);
 }
+
+
