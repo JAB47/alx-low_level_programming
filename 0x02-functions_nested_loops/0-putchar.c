@@ -4,6 +4,7 @@
  * main - the driver function print _putchar followed by a new line
  * Retrun: always 0
  */
+
 int main(void)
 {
 	_putchar('_');
